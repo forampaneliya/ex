@@ -1,0 +1,106 @@
+  <html>
+	<head>
+		<title>Form</title>
+	 </head>
+	 <body>
+		<form>
+			<div>
+				<label> Name: </label>
+				<input type="text" placeholder="first name" required />
+				<input type="text" placeholder="last name" required />
+			</div><br/>
+			
+			<div>
+				<label> Email: </label>
+				<input type="email" placeholder="your email" required />
+			</div><br/>
+			
+			<div>
+				<label> password: </label>
+				<input type="password" placeholder="your password" required />
+			</div><br/>
+			
+			<div>
+				<label> Contact no: </label>
+				<input type="tel" pattern="[0-9]{10}" placeholder="your number"/>
+			</div><br/>
+			
+			<div>
+				<label> Select country: </label>
+				<select>
+					<option disabled selected>Select Here</option>
+					<option>India</option>
+					<option>USA</option>
+					<option>Germany</option>
+					<option>Finland</option>
+					<option>Canada</option>
+					<option>Uk</option>
+				</select>
+			</div><br/>
+			
+			<div>
+				<label>Quantity:</label>
+				<input type="number" min="1" max="10"/>
+			</div><br/>
+			
+			<div>
+				<label>Date:</label>
+				<input type="date"/>
+			</div><br/>
+			
+			<div>
+				<label>Select file:</label>
+				<input type="file"/>
+			</div><br/>
+			
+			<div>
+				<label>Range:</label>
+				<input type="range"/>
+			</div><br/>
+			
+			<div>
+				<label>Address:</label>
+				<textarea rows="5" cols="30"></textarea>
+			</div><br/>
+			
+			<div>
+				<label>Select any hobby:</label><br/>
+				
+				<input type="checkbox" id="read"/>
+				<label for="read"> Reading </label>
+				
+				<input type="checkbox" id="write"/>
+				<label for="write"> Writing </label>
+				
+				<input type="checkbox" id="sing"/>
+				<label for="sing"> Singing </label>
+				
+				<input type="checkbox" id="cook"/>
+				<label for="cook"> cooking </label>
+			</div><br/>
+			
+			<div>
+				<label>Select Gender:</label><br/>
+				
+				<input type="radio" id="gender"/>
+				<label for="gender"> Male </label>
+				
+				<input type="radio" id="gender"/>
+				<label for="gender"> Female </label>
+				
+				<input type="radio" id="gender"/>
+				<label for="gender"> other </label>
+				
+			</div><br/>
+				
+				
+			<div>
+				<input type="reset" value="clean"/>
+				<button type="reset">Delete Data </button>
+
+				<input type="Submit" value="Sign Up"/>
+				<button type="submit"> Sign In </button>
+			</div>
+		</form>
+	</body>
+</html>
